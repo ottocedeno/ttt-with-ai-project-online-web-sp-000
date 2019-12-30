@@ -1,3 +1,20 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+# test = Players::Human.new_with_name("X", "Otto")
+# binding.pry
+
+Game.welcome
+game = Game.setup
+game.play
+
+
+
+# game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"))
+# test = game.player_1
+# binding.pry
+
+
+# game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"))
+# binding.pry
