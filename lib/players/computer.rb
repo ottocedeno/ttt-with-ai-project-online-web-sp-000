@@ -22,7 +22,7 @@ class Players
     end
 
     def move(board)
-      (1..9).to_a.sample
+      (1..9).to_a.sample.to_s
       # print check_win_combo
       # (available_moves.sample + 1).to_s
     end
