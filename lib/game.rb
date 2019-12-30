@@ -71,7 +71,7 @@ class Game
     end
     puts "Congratulations #{winner}!" if won?
     puts "Cat's Game!" if draw?
-    new_game?
+    # new_game?
   end
 
   def self.welcome
